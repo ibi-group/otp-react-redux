@@ -1415,27 +1415,6 @@
   dependencies:
     styled-icons "^9.1.0"
 
-"@opentripplanner/printable-itinerary@^0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@opentripplanner/printable-itinerary/-/printable-itinerary-0.0.18.tgz#4137fa0000f8c1164e5fa4226243e0b887412105"
-  integrity sha512-uxUm80WU4m8Pni3OzkBzMI/7kmtgRSR7e3wJqy6N9PpZRyEEzUzzSaDmAS8+/nswgZyrNpeenp5ZK5e+7AJA+g==
-  dependencies:
-    "@opentripplanner/core-utils" "^0.0.18"
-    "@opentripplanner/humanize-distance" "^0.0.18"
-    prop-types "^15.7.2"
-
-"@opentripplanner/trip-details@^0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@opentripplanner/trip-details/-/trip-details-0.0.18.tgz#69d8fa4e8a70977c9aaa71a777a34021aec0fa12"
-  integrity sha512-jCBgmPQhl9gsUniYSbPqDvpyFUHqsGNHUwHg+jqAplPHWu60Hn2F/P1oWf5PmjXlBV7ZFOsuTeH7HVmGfVrPrw==
-  dependencies:
-    "@opentripplanner/core-utils" "^0.0.18"
-    "@opentripplanner/humanize-distance" "^0.0.18"
-    moment "^2.24.0"
-    prop-types "^15.7.2"
-    styled-icons "^9.1.0"
-    velocity-react "^1.4.3"
-
 "@opentripplanner/park-and-ride-overlay@^0.0.18":
   version "0.0.18"
   resolved "https://registry.yarnpkg.com/@opentripplanner/park-and-ride-overlay/-/park-and-ride-overlay-0.0.18.tgz#2e466a4e0ab47531d595c58119371a5a2a11ec7a"
@@ -1443,6 +1422,15 @@
   dependencies:
     "@opentripplanner/core-utils" "^0.0.18"
     "@opentripplanner/from-to-location-picker" "^0.0.18"
+    prop-types "^15.7.2"
+
+"@opentripplanner/printable-itinerary@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@opentripplanner/printable-itinerary/-/printable-itinerary-0.0.18.tgz#4137fa0000f8c1164e5fa4226243e0b887412105"
+  integrity sha512-uxUm80WU4m8Pni3OzkBzMI/7kmtgRSR7e3wJqy6N9PpZRyEEzUzzSaDmAS8+/nswgZyrNpeenp5ZK5e+7AJA+g==
+  dependencies:
+    "@opentripplanner/core-utils" "^0.0.18"
+    "@opentripplanner/humanize-distance" "^0.0.18"
     prop-types "^15.7.2"
 
 "@opentripplanner/route-viewer-overlay@^0.0.18":
@@ -1478,6 +1466,18 @@
     "@opentripplanner/core-utils" "^0.0.18"
     lodash.isequal "^4.5.0"
     transitive-js "^0.13.0"
+
+"@opentripplanner/trip-details@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@opentripplanner/trip-details/-/trip-details-0.0.18.tgz#69d8fa4e8a70977c9aaa71a777a34021aec0fa12"
+  integrity sha512-jCBgmPQhl9gsUniYSbPqDvpyFUHqsGNHUwHg+jqAplPHWu60Hn2F/P1oWf5PmjXlBV7ZFOsuTeH7HVmGfVrPrw==
+  dependencies:
+    "@opentripplanner/core-utils" "^0.0.18"
+    "@opentripplanner/humanize-distance" "^0.0.18"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    styled-icons "^9.1.0"
+    velocity-react "^1.4.3"
 
 "@opentripplanner/trip-form@^0.0.18":
   version "0.0.18"
@@ -7591,15 +7591,7 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-https-proxy-agent@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
-  dependencies:
-    agent-base "^4.3.0"
-    debug "^3.1.0"
-
-https-proxy-agent@^2.2.3:
+https-proxy-agent@^2.2.1, https-proxy-agent@^2.2.3:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
   integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
